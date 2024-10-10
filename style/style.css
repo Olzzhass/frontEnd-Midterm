@@ -15,6 +15,10 @@ a{
     display: flex;
 }
 
+.link:hover{
+    color: #EAB308;
+}
+
 .header_container{
     display: flex;
     justify-content: space-between;
@@ -28,6 +32,7 @@ a{
 .link{
     padding-left: 20px;
     font-family: 'Lexend Deca';
+    transition: color 0.7s ease;
 }
 
 .main_up{
@@ -42,6 +47,8 @@ a{
 
     margin: 0px auto;
     padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
     padding-bottom: 5%;
 
     align-items: center;
@@ -82,6 +89,8 @@ a{
     justify-content: space-between;
 
     margin: 0px auto;
+    padding-left: 2%;
+    padding-right: 2%;
     align-items: center;
 
     padding-top: 5%;
@@ -106,5 +115,38 @@ a{
 }
 
 .yellow{
+    color: #EAB308;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_h2{
+    font-family: 'Lexend Deca';
+    margin-bottom: 10%;
+    font-size: 30px;
+}
+
+.footer_container{
+    max-width: 1095px;
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.footer_logos{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+
+.footer_logo{
+    font-size: 25px;
+    transition: color 0.7s ease;
+}
+
+.footer_logo:hover{
     color: #EAB308;
 }
