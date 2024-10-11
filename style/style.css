@@ -25,8 +25,8 @@ a{
     max-width: 948px;
 
     margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .link{
@@ -149,4 +149,115 @@ a{
 
 .footer_logo:hover{
     color: #EAB308;
+}
+
+
+
+/* FAMILY PAGE */
+.family_main{
+    background-color: #111827;
+}
+
+.family_main_up_container{
+    max-width: 1095px;
+
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+
+    align-items: center;
+}
+
+.main_up_left_container{
+    max-width: 461px;
+}
+
+.family_main_up_h2_div{
+    display: flex;
+}
+
+
+.contact_up_container{
+    max-width: 685px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+
+.contact_div{
+    display: flex;
+    justify-content: center;
+}
+
+.contact_down_container{
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+    align-items: center;
+}
+
+.down_right{
+    min-width: 540px;
+}
+
+.contact_yellow{
+    color: #EAB308;
+    font-family: 'Lexend Deca';
+    font-size: 16px;
+}
+
+.contact_white{
+    font-family: 'Lexend Deca';
+    font-size: 16px;
+}
+
+.input{
+    background-color: #1F2937;
+    color: white;
+    border: none;
+    margin-bottom: 4%;
+    border-radius: 2px;
+}
+
+.input::placeholder{
+    color: #F3F4F6;
+    font-family: 'Lexend Deca';
+}
+
+.input_padding{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 23%;
+}
+
+.textarea_padding{
+    padding-top: 2%;
+    padding-bottom: 15%;
+    padding-left: 3%;
+    padding-right: 60%;
+}
+
+.submit{
+    background-color: #EAB308;
+    min-width: 123px;
+    border-radius: 2px;
+}
+
+.submit_p{
+    color: black;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 16px;
+    font-family: 'Lexend Deca';
 }
