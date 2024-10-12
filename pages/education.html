@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="/style/normalyze.css">
     <link rel="stylesheet" href="/style/style.css">
+    <script src="/script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -28,8 +29,111 @@
         </div>
     </header>
 
-    <main>
+    <main class="education_main">
+        <section class="education_top_section">
+            <div class="education_container">
+                <div class="top_section_left">
+                    <div class="timeline">
+                        <div class="outer">
+                            <div class="card">
+                                <div class="info">
+                                    <h3 class="timeline_title">Title 1</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </div>
+                            </div>
+    
+                            <div class="card">
+                                <div class="info">
+                                    <h3 class="timeline_title">Title 2</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </div>
+                            </div>
+    
+                            <div class="card">
+                                <div class="info">
+                                    <h3 class="timeline_title">Title 3</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="top_section_right">
+                    <div class="timeline_second">
+                        <ul>
+                            <li>
+                                <div class="content">
+                                    <h3>What Is Lorem Ipsum?</h3>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    </p>
+                                </div>
+                            </li>
+    
+                            <li>
+                                <div class="content">
+                                    <h3>What Is Lorem Ipsum?</h3>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </p>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <div class="content">
+                                    <h3>What Is Lorem Ipsum?</h3>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </p>
+                                </div>
+                            </li>
+    
+                            <li>
+                                <div class="content">
+                                    <h3>What Is Lorem Ipsum?</h3>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
+            <div class="button_div">
+                <button onclick="toggleTable()" id="toggleTableButton" class="show_button">Show Learned Courses</button>
+            </div>
+            
+            <table class="education_table" id="educationTable" style="display: none; margin-top: 20px; margin-bottom: 20px;">
+                <tr>
+                    <th>Year</th>
+                    <th>Learned Course</th>
+                </tr>
+                
+                <tr>
+                    <td>2023</td>
+                    <td>Advanced Algorithmns</td>
+                </tr>
+                
+                <tr>
+                    <td>2023</td>
+                    <td>Design Patterns</td>
+                </tr>
+
+                <tr>
+                    <td>2023</td>
+                    <td>Database</td>
+                </tr>
+
+                <tr>
+                    <td>2023</td>
+                    <td>Linux</td>
+                </tr>
+            </table>
+
+        </section>
     </main>
 
     <footer class="footer">
